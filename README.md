@@ -1,5 +1,5 @@
 
-This script updates places a watermark image on top of the iOS icons for your iOS app. Tested on XCode 7, OSX 10.11 El Capitan
+This script  places a watermark image on top of the icons for your iOS app by going through each file inside an appiconset folder and rendering the watermark on top of your image.  Tested on XCode 7, OSX 10.11 El Capitan
 ### Requirements
 
 Install the two dependencies, ImageMagick and Ghostscript.

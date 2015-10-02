@@ -1,6 +1,6 @@
 # AppIconTagger
 ===============
-This script updates all the icon in appiconset. 
+This script updates all the icons in your icons directory. 
 ## Requirements
 
 Install the two dependencies, ImageMagick and Ghostscript.

@@ -1,5 +1,5 @@
 # AppIconTagger
-===============
+
 This script updates all the icons in your icons directory. 
 ## Requirements
 

@@ -1,5 +1,5 @@
 
-This script updates all the icons in your icons directory. 
+This script updates places a watermark image on top of the iOS icons for your iOS app. Tested on XCode 7, OSX 10.11 El Capitan
 ### Requirements
 
 Install the two dependencies, ImageMagick and Ghostscript.

@@ -15,7 +15,8 @@ $ brew install ghostscript
   sh tag_icons.sh tag YourProject/Images.xcassets/AppIcons/YourSchema.appiconset/
 ```
 ## Before the script
-![alt tag](https://github.com/ursu-daniil/AppIconTagger/blob/master/Before.png)
+<img src="https://github.com/ursu-daniil/AppIconTagger/blob/master/Before.png" alt="alt text" style="width:700;height:400">
+
 
 ## After running the script:
 ![alt tag](https://github.com/ursu-daniil/AppIconTagger/blob/master/After.png)

@@ -16,7 +16,7 @@ $ brew install ghostscript
 ```
 ## Before the script
 
-<img src="https://github.com/ursu-daniil/AppIconTagger/blob/master/Before.png" alt="alt text" width="350px" height="200px">
+<img src="https://github.com/ursu-daniil/AppIconTagger/blob/master/Before.png" alt="alt text" width="500px" height="280px">
 
 
 ## After running the script:

@@ -16,5 +16,5 @@ $ brew install ghostscript
 ![alt tag](https://github.com/ursu-daniil/AppIconTagger/blob/master/Before.png)
 
 ## After running the script:
-![alt tag](https://github.com/ursu-daniil/AppIconTagger/blob/master/Before.png)
+![alt tag](https://github.com/ursu-daniil/AppIconTagger/blob/master/After.png)
 

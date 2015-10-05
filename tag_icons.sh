@@ -19,7 +19,7 @@ function processIcon() {
     width=`identify -format %w ${icon_path}`
     height=`identify -format %h ${icon_path}`
     #create a resized watermark image which will be placed above the original image
-    convert watermark.png -resize ${width}x${height} ${icon_path}.watermark
+    convert $(dirname $0)/watermark.png -resize ${width}x${height} ${icon_path}.watermark
     #apply it on top of the original image
     composite  -gravity center -quality 100 ${icon_path}.watermark ${icon_path} ${icon_path}
     #remove the resized image as it not needed.
@@ -42,12 +42,8 @@ do
 
     if [ -f $icon ]; then
         if [ $mode == $tagMode ]; then
-            # ensure the icon hasn't been already tagged
-            git checkout $icon
             # tag it
             processIcon $icon
-        elif [ $mode == $cleanupMode ]; then
-            git checkout $icon
         else
             echo " ! Unknown mode `$mode`"
         fi
